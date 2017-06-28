@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/style.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <a href="#" class="navbar-brand"> Chilaquiles Don Aquiles</a>
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <!-- esto sirve para agregar un boton cuando se hace pequeño -->
+              </div>
+              <ul class="nav  navbar-nav navbar-right ">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="about.html">About Us</a> </li>
+                  <!--data-toggle para ver que estamos utilizando bootstrap -target espara manda a un objetivo
+                el # espara in ID-->
+                  <li>
+                      <a href="#" data-toggle="modal" data-target="#modal-contact-form" >Contac Us <span class="caret"></span></a>
+                  </li>
+                  <li>
+                      <form class="navbar-form" role="search">
+                          <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Search...">
+                              <div class="input-group-btn">
+                                  <button class="btn btn-default" type="submit">
+                                      <i class="glyphicon glyphicon-search"></i>
+                                  </button>
+                              </div>
+                          </div>
+                      </form>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  <div class="container">
+    <div class="row">
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">Products</li>
+      </ol>
+    </div>
+    <div class="row">
+      <div class="page-header">
+        <h1>About Us.<small> Who we are</small></h1>
+      </div>
+    </div>
+
+<div class="container">
+  <div class="row">
+  <div class="col-md-8">
+    <h1>The company</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque tenetur distinctio vitae est inventore, aliquam nisi fugit velit! Cum accusamus eligendi numquam fugiat eveniet deleniti sit quam consectetur quasi a.</p>
+  </div>
+  <div class="col-md-4">
+    <p class="well well-lg text-center lead">
+      This is a great company!! I will remember it for the years to come.
+    </p>
+
+  </div>
+</div>
+</div>
+<hr>
+
+<h2>The Team</h2>
+<br>
+          </div>
+
+
+<div class="container">
+  <div class="row">
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+
+        <img src="img/Batman-v-Superman.jpg" alt="" class="size1">
+        <div class="caption">
+          <h4>Product Name</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, excepturi, dolore voluptatem assumenda necessitatibus aperiam cum at non voluptatum molestiae.</p>
+  <p><a href="#"><u>Twitter</u></a>&#32;&#124;&#32;<a href="#"><u>Facebook</u></a></p>
+    </div>
+
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+        <img src="img/bvs-.jpg" alt="" class="size1">
+        <div class="caption">
+          <h4>Product Name</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, excepturi, dolore voluptatem assumenda necessitatibus aperiam cum at non voluptatum molestiae.</p>
+  <p><a href="#"><u>Twitter</u></a>&#32;&#124;&#32;<a href="#"><u>Facebook</u></a></p>
+    </div>
+
+  </div>
+  </div>
+
+  </div>
+</div>
+
+
+  <div class="footer">
+    <p class="text-center lead">
+      Wanna get in touch? Email us at <a href="#">roman_kft@hotmail.com</a>
+    </p>
+    <hr>
+    <div class="features">
+
+
+      <ul class="list_unstyled text-center list-inline">
+        <li>Follow us:</li>
+        <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+    </div>
+    <p class="text-center text-muted">
+      &copy; Copyright 2017 Company Name
+    </p>
+  </div>
+  <!-- modal contac form -->
+  <div class="modal fade" id="modal-contact-form" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times</button>
+          <h3>    Contact us</h3>
+        </div>
+        <div class="modal-body">
+          <form class="" action="index.html" method="post">
+            <div class="form-group">
+              <label for="contact-name" class="form-control-label">Name</label>
+              <input type="text" class="form-control" id="contact-name">
+            </div>
+            <div class="form-group">
+              <label for="contact-email" class="form-control-label">Eamil:</label>
+              <input type="email" class="form-control" id="contatct-email">
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="form-control-label">Message</label>
+              <textarea name="" id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <input type="submit" class="btn btn-primary" value="Send Message">
+              </div>
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.carousel').carousel({
+        interval: 1000
+      });
+    });
+  </script>
+</body>
+
+</html>

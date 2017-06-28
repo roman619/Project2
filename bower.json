@@ -1,0 +1,21 @@
+{
+  "name": "Project2",
+  "homepage": "https://github.com/roman619/Project2",
+  "authors": [
+    "roman619 <roman_kft@hotomail.com>"
+  ],
+  "description": "romns",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

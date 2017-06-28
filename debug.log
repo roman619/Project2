@@ -1,0 +1,4 @@
+[0620/224908.199:ERROR:process_reader_win.cc(142)] SuspendThread: Acceso denegado. (0x5)
+[0620/224908.206:ERROR:exception_snapshot_win.cc(87)] thread ID 1092 not found in process
+[0620/224908.212:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0620/224908.212:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose.  (0xc000010a)
